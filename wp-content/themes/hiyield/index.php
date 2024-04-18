@@ -153,7 +153,7 @@
                 <p> <?= estimate_reading_time( get_the_id() ); ?> </p>
             </span>
             
-            <h3 class="font-semibold text-teal-700 text-3xl"><?= the_title(); ?>
+            <h3 class="font-semibold text-teal-700 group-hover:text-[#f472b6] text-3xl"><?= the_title(); ?>
                 <span class="inline-block ">
                     <svg class="group-hover:translate-x-1 feather feather-arrow-right transition-all duration-300" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f472b6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                 </span>
